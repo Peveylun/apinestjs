@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3c09bfdd-695a-4cbc-8072-0cd52e4b2fd7" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/dto/create-user.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.module.ts" afterDir="false" />
@@ -77,7 +78,7 @@
       <workItem from="1655201935361" duration="4505000" />
       <workItem from="1655228648777" duration="271000" />
       <workItem from="1655320295390" duration="948000" />
-      <workItem from="1655331258901" duration="1292000" />
+      <workItem from="1655331258901" duration="1373000" />
     </task>
     <servers />
   </component>
