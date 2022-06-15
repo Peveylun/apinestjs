@@ -1,14 +1,17 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { UserModule } from './user/user.module';
 import { MongooseModule } from '@nestjs/mongoose';
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
-import config from './config.json';
+import { UserModule } from './user/user.module';
 
 @Module({
-  imports: [UserModule, MongooseModule.forRoot(config.TOKEN)],
+  imports: [
+    UserModule,
+    MongooseModule.forRoot(
+      'mongodb+srv://Peveylun:Diablo276@cluster0.hk28h.mongodb.net/?retryWrites=true&w=majority',
+    ),
+    UserModule,
+  ],
   controllers: [AppController],
   providers: [AppService],
 })
