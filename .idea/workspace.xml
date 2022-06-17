@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c09bfdd-695a-4cbc-8072-0cd52e4b2fd7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dto/create-user.dto.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/dto/create-user.dto.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/dto/update-user.dto.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/schemas/user.schema.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/user/user.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/user.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/user.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/user.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/user/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/user.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +27,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2AGdxGxybsvVccFimv5MWF8IY1i" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -78,7 +72,9 @@
       <workItem from="1655201935361" duration="4505000" />
       <workItem from="1655228648777" duration="271000" />
       <workItem from="1655320295390" duration="948000" />
-      <workItem from="1655331258901" duration="1373000" />
+      <workItem from="1655331258901" duration="1412000" />
+      <workItem from="1655419981750" duration="621000" />
+      <workItem from="1655467187318" duration="4309000" />
     </task>
     <servers />
   </component>

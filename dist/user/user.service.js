@@ -26,7 +26,16 @@ let UserService = class UserService {
         return createdUser.save();
     }
     async findAll() {
-        return this.userModel.find().exec();
+        return await this.userModel.find({}).exec();
+    }
+    async findById(id) {
+        return await this.userModel.findById(id).exec();
+    }
+    async update(id, updateUserDto) {
+        return this.userModel.findByIdAndUpdate(id, updateUserDto);
+    }
+    async delete(id) {
+        return this.userModel.findByIdAndDelete(id);
     }
 };
 UserService = __decorate([

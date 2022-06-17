@@ -19,7 +19,6 @@ AppModule = __decorate([
         imports: [
             user_module_1.UserModule,
             mongoose_1.MongooseModule.forRoot('mongodb+srv://Peveylun:Diablo276@cluster0.hk28h.mongodb.net/?retryWrites=true&w=majority'),
-            user_module_1.UserModule,
         ],
         controllers: [app_controller_1.AppController],
         providers: [app_service_1.AppService],

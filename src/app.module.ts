@@ -10,7 +10,6 @@ import { UserModule } from './user/user.module';
     MongooseModule.forRoot(
       'mongodb+srv://Peveylun:Diablo276@cluster0.hk28h.mongodb.net/?retryWrites=true&w=majority',
     ),
-    UserModule,
   ],
   controllers: [AppController],
   providers: [AppService],
